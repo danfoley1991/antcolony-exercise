@@ -104,7 +104,7 @@ canvas.addEventListener('click', (event) => {
         const data = { x: x, y: y };
 
         // Send a POST request to the backend to register the nest
-        fetch('http://localhost:8080/api/nests/register', {
+        fetch('http://localhost:8080/api/ants/nest', {
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json'
@@ -131,7 +131,7 @@ canvas.addEventListener('click', (event) => {
         const data = { x: x, y: y };
 
         // Send a POST request to the backend to register the food source
-        fetch('http://localhost:8080/api/food/register', {
+        fetch('http://localhost:8080/api/ants/food', {
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json'
