@@ -2,8 +2,8 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 // Set the canvas size
-canvas.width = 800; //window.innerWidth * 0.8;
-canvas.height = 600; //window.innerHeight * 0.8;
+canvas.width = window.innerWidth * 0.8;
+canvas.height = window.innerHeight * 0.8;
 
 // Variables to hold ants and nests data
 let ants = [];
