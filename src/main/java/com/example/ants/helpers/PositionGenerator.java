@@ -6,8 +6,8 @@ public class PositionGenerator {
 
     private static final Random random = new Random();
     private static final int antSize = 20;
-    private static final int maxWidth = 800 - antSize;
-    private static final int maxHeight = 600 - antSize;
+    private static final int maxWidth = 100 - antSize;
+    private static final int maxHeight = 60 - antSize;
     private static final int movementDistance = 5;
 
     public static int[] get() {
