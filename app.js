@@ -75,8 +75,8 @@ async function fetchAntUpdates() {
         if (data && Array.isArray(data)) {
             ants = data.map(antData => ({
                 id: antData.id,
-                x: antData.posX,
-                y: antData.posY
+                x: antData.position.x,
+                y: antData.position.y
             }));
         }
     } catch (error) {
